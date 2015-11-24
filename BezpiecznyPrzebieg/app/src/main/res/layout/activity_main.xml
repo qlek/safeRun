@@ -8,8 +8,8 @@
 
     <fragment
         android:id="@+id/help_fragment"
-        android:name="com.example.specjalista_it.bezpiecznyprzebieg.Content"
+        android:name="com.example.specjalista_it.bezpiecznyprzebieg.HomeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/fragment_content" />
+        tools:layout="@layout/fragment_home" />
 </RelativeLayout>

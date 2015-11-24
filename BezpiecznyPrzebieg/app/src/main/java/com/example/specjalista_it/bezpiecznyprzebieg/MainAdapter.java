@@ -1,35 +1,34 @@
 package com.example.specjalista_it.bezpiecznyprzebieg;
 
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Specjalista-IT on 2015-11-24.
- */
+
 public class MainAdapter extends RecyclerView.Adapter<MainViewHolder> {
 
     protected List<String> mData = new ArrayList<>();
 
-
-    @Override
-    public MainViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return null;
+    public MainAdapter(List<String> mData) {
+        this.mData = mData;
     }
 
     @Override
-    public void onBindViewHolder(MainViewHolder holder, int position) {
-
+    public MainViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+        LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
+        return new MainViewHolder(layoutInflater.inflate(R.layout.item_text, viewGroup, false));
     }
 
-    public void onBindViewHolder(String holder, int position) {
-
+    @Override
+    public void onBindViewHolder(MainViewHolder mainViewHolder, int i) {
+        mainViewHolder.setText(mData.get(i));
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return mData.size();
     }
 }
