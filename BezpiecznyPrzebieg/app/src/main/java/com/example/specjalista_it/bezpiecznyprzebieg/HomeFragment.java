@@ -27,8 +27,14 @@ public class HomeFragment extends Fragment {
         ButterKnife.bind(this, view);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         myRecycleView.setLayoutManager(layoutManager);
-        List<String> data = new ArrayList<>();
-        data.add("SSS");
+        List<MainListElement> data = new ArrayList<>();
+
+        data.add(new MainListElement(1,getString(R.string.stering_wheel)));
+        data.add(new MainListElement(2,getString(R.string.interia)));
+        data.add(new MainListElement(3,getString(R.string.engine)));
+        data.add(new MainListElement(4,getString(R.string.suspension)));
+        data.add(new MainListElement(5,getString(R.string.periodic_checkups)));
+
         MainAdapter mainAdapter = new MainAdapter(data);
         myRecycleView.setAdapter(mainAdapter);
         return view;

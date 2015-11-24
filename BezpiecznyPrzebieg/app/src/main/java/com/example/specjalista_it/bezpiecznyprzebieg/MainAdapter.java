@@ -10,9 +10,9 @@ import java.util.List;
 
 public class MainAdapter extends RecyclerView.Adapter<MainViewHolder> {
 
-    protected List<String> mData = new ArrayList<>();
+    protected List<MainListElement> mData = new ArrayList<>();
 
-    public MainAdapter(List<String> mData) {
+    public MainAdapter(List<MainListElement> mData) {
         this.mData = mData;
     }
 
@@ -24,7 +24,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainViewHolder> {
 
     @Override
     public void onBindViewHolder(MainViewHolder mainViewHolder, int i) {
-        mainViewHolder.setText(mData.get(i));
+        mainViewHolder.setText(mData.get(i).getText());
     }
 
     @Override
