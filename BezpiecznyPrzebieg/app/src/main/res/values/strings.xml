@@ -1,8 +1,11 @@
 <resources>
     <!-- -->
     <string name="app_name">Bezpieczny Przebieg</string>
+    <string name="welcome">Witaj, jakiego pojazdu dotyczy problem?</string>
+    <string name="car">Samochód prywatny</string>
+    <string name="public_transport">Transport publiczny</string>
     <!-- -->
-    <string name="button_label_sponsor">Informacja o akcji</string>
+    <string name="button_label_sponsor">Informacja</string>
     <!--  -->
     <string name="diagnostic_label">Wybierz źródło problemu:</string>
 
