@@ -15,7 +15,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 
-public class HomeFragment extends Fragment {
+public class FirstListFragment extends Fragment {
 
     @Bind(R.id.my_recycler_view)
     protected RecyclerView myRecycleView;
@@ -23,7 +23,7 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.first_list_fragment, container, false);
         ButterKnife.bind(this, view);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         myRecycleView.setLayoutManager(layoutManager);
@@ -35,8 +35,8 @@ public class HomeFragment extends Fragment {
         data.add(new MainListElement(4,getString(R.string.suspension)));
         data.add(new MainListElement(5,getString(R.string.periodic_checkups)));
 
-        MainAdapter mainAdapter = new MainAdapter(data,getContext());
-        myRecycleView.setAdapter(mainAdapter);
+        FirstListAdapter firstListAdapter = new FirstListAdapter(data,getContext());
+        myRecycleView.setAdapter(firstListAdapter);
         return view;
     }
 

@@ -24,7 +24,7 @@ public class LunchFragment extends Fragment{
         carButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), MainActivity.class);
+                Intent intent = new Intent(getContext(), FirstListActivity.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +34,7 @@ public class LunchFragment extends Fragment{
         transportButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), MainActivity.class);
+                Intent intent = new Intent(getContext(), FirstListActivity.class);
                 startActivity(intent);
             }
         });

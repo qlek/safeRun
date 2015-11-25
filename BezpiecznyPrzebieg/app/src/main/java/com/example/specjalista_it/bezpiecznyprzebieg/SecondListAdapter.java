@@ -11,24 +11,24 @@ import java.util.List;
 /**
  * Created by Specjalista-IT on 2015-11-25.
  */
-public class SecondAdapter  extends RecyclerView.Adapter<SecondViewHolder>  {
+public class SecondListAdapter extends RecyclerView.Adapter<SecondListHolder>  {
 
     protected List<MainListElement> mData = new ArrayList<>();
     protected Context context;
 
-    public SecondAdapter(List<MainListElement> mData, Context context) {
+    public SecondListAdapter(List<MainListElement> mData, Context context) {
         this.mData = mData;
         this.context = context;
     }
 
     @Override
-    public SecondViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+    public SecondListHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
-        return new SecondViewHolder(layoutInflater.inflate(R.layout.item_text, viewGroup, false), context);
+        return new SecondListHolder(layoutInflater.inflate(R.layout.item_text, viewGroup, false), context);
     }
 
     @Override
-    public void onBindViewHolder(SecondViewHolder mainViewHolder, int i) {
+    public void onBindViewHolder(SecondListHolder mainViewHolder, int i) {
         mainViewHolder.setText(mData.get(i).getText());
     }
 

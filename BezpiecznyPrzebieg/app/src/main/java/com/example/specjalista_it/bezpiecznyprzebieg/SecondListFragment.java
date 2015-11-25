@@ -30,7 +30,7 @@ public class SecondListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.details_fragment, container, false);
+        View view = inflater.inflate(R.layout.second_list_fragment, container, false);
         ButterKnife.bind(this, view);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         secondRecycleView.setLayoutManager(layoutManager);
@@ -39,12 +39,12 @@ public class SecondListFragment extends Fragment {
         if (getActivity().getIntent()!= null)
         {
             Intent i = getActivity().getIntent();
-            pramFromIntent = i.getExtras().getString(MainViewHolder.PARAM_NAME);
+            pramFromIntent = i.getExtras().getString(FirstListHolder.PARAM_NAME);
 
         }
         List<MainListElement> data = setElements();
-        SecondAdapter secondAdapter = new SecondAdapter(data, getContext());
-        secondRecycleView.setAdapter(secondAdapter);
+        SecondListAdapter secondListAdapter = new SecondListAdapter(data, getContext());
+        secondRecycleView.setAdapter(secondListAdapter);
         return view;
     }
 
