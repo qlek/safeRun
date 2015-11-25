@@ -5,20 +5,21 @@ import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+/**
+ * Created by Specjalista-IT on 2015-11-25.
+ */
+public class SecondViewHolder  extends RecyclerView.ViewHolder {
 
-public class MainViewHolder extends RecyclerView.ViewHolder {
-
-    public static String PARAM_NAME = "FIRST_LIST_PARAM";
+    public static String PARAM_NAME = "SECOND_LIST_PARAM";
     @Bind(R.id.text_item)
     protected TextView myItemText;
     protected Context con;
 
-    public MainViewHolder(View itemView, Context context) {
+    public SecondViewHolder(View itemView, Context context) {
         super(itemView);
         con = context;
         ButterKnife.bind(this, itemView);
@@ -32,10 +33,11 @@ public class MainViewHolder extends RecyclerView.ViewHolder {
             @Override
             public void onClick(View v) {
                 if (v.getContext() != null) {
+                    //TODO: change activites that it will start - single text and third list activieties
                     Intent intent = new Intent(con.getApplicationContext(), SecondListActivity.class);
                     intent.putExtra(PARAM_NAME, myItemText.getText());
 
-                   con.startActivity(intent);
+                    con.startActivity(intent);
                 }
                 //Toast.makeText(v.getContext(), myItemText.getText(), Toast.LENGTH_LONG).show();
             }

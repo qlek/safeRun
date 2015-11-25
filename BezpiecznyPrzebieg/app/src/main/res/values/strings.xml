@@ -1,17 +1,48 @@
 <resources>
+    <!-- -->
     <string name="app_name">Bezpieczny Przebieg</string>
-
+    <!-- -->
     <string name="button_label_sponsor">Informacja o akcji</string>
-
+    <!--  -->
     <string name="diagnostic_label">Wybierz źródło problemu:</string>
 
+    <!-- Main List -->
     <string name="stering_wheel">1. Kierownica</string>
     <string name="interia">2. Kokpit</string>
-    <string name="engine">3. Engine</string>
+    <string name="engine">3. Silnik</string>
     <string name="suspension">4. Koła i zawieszenie</string>
     <string name="periodic_checkups">5. Regularna kontrola</string>
 
-<!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--second list main label-->
+    <string name="second_list_label">Jaki jest objaw problemu:</string>
+
+    <!-- Stering wheel list -->
+    <string name="stering_one">1. Krzywa kierownica</string>
+    <string name="stering_two">2. Kierwnica drży przy hamowaniu</string>
+    <string name="stering_three">3. Blokowanie kierwonicy przy skrecaniu</string>
+    <string name="stering_four">4. Kierunkowskaz miga zbyt szybko</string>
+
+    <!-- cokpit list -->
+    <string name="cokpit_one">1. Obrotomierz "faluje" na postoju</string>
+    <string name="cokpit_two">2. Rośnie temperatura silnika</string>
+    <string name="cokpit_three">3. Zapaliła się żółta kontrolka</string>
+    <string name="cokpit_four">4. Zapaliła się czerwona kontrolka</string>
+
+    <!-- engine list -->
+    <string name="engine_one">1. Silnik bardzo głośno pracuje</string>
+    <string name="engine_two">2. Stukanie w silniku</string>
+    <string name="engine_three">3. Olej na silniku</string>
+    <string name="engine_four">4. Dzwonienie na luzie</string>
+    <string name="engine_five">5. Palma pod samochodem</string>
+
+    <!-- suspension list -->
+    <string name="suspension_one">1. Stuki w zawieszeniu z przodu</string>
+    <string name="suspension_two">2. Stuki w zawieszeniu z tyłu</string>
+    <string name="suspension_three">3. Szumienie kół</string>
+
+    <!-- checkups main list -->
+    <string name="checkups_one">1. Przed wyjazdem w długa trasę</string>
+    <string name="checkups_two">2. Raz w miesiącu</string>
+    <string name="checkups_three">3. Raz w roku</string>
 
 </resources>

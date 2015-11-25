@@ -35,7 +35,7 @@ public class HomeFragment extends Fragment {
         data.add(new MainListElement(4,getString(R.string.suspension)));
         data.add(new MainListElement(5,getString(R.string.periodic_checkups)));
 
-        MainAdapter mainAdapter = new MainAdapter(data);
+        MainAdapter mainAdapter = new MainAdapter(data,getContext());
         myRecycleView.setAdapter(mainAdapter);
         return view;
     }
