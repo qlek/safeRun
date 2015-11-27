@@ -11,69 +11,69 @@
 
     <!--public transport main list-->
 
-    <string name="kzk_gop">1. Jadę autobusem KZK GOP</string>
-    <string name="autocar">2. Jadę autokarem wycieczkowym</string>
+    <string name="kzk_gop">Jadę autobusem KZK GOP</string>
+    <string name="autocar">Jadę autokarem wycieczkowym</string>
 
     <!-- public transport list -->
-    <string name="kzk_gop_technical_issue">1. Stan techniczny pojazdu</string>
-    <string name="kzk_gop_danger_public">2. Niebezpieczna sytuacja w autobusie</string>
-    <string name="kzk_gop_medical_problem">3. Zasłabnięcie pasażera</string>
+    <string name="kzk_gop_technical_issue">Stan techniczny pojazdu</string>
+    <string name="kzk_gop_danger_public">Niebezpieczna sytuacja w autobusie</string>
+    <string name="kzk_gop_medical_problem">Zasłabnięcie pasażera</string>
 
     <!-- public autocar list -->
-    <string name="autocar_technical_checkup">1. Sprawdzenie stanu technicznego</string>
-    <string name="autocar_drug_test">2. Sprawdzenie trzeźwości kierowcy</string>
-    <string name="autocar_license">3. Sprawdzenie uprawnień kierowcy</string>
+    <string name="autocar_technical_checkup">Sprawdzenie stanu technicznego</string>
+    <string name="autocar_drug_test">Sprawdzenie trzeźwości kierowcy</string>
+    <string name="autocar_license">Sprawdzenie uprawnień kierowcy</string>
 
     <!-- Main List -->
-    <string name="stering_wheel">1. Kierownica</string>
-    <string name="interia">2. Kokpit</string>
-    <string name="engine">3. Silnik</string>
-    <string name="suspension">4. Koła i zawieszenie</string>
-    <string name="periodic_checkups">5. Regularna kontrola</string>
+    <string name="stering_wheel">Kierownica</string>
+    <string name="interia">Kokpit</string>
+    <string name="engine">Silnik</string>
+    <string name="suspension">Koła i zawieszenie</string>
+    <string name="periodic_checkups">Regularna kontrola</string>
 
     <!--second list main label-->
     <string name="second_list_label">Jaki jest objaw problemu:</string>
 
     <!-- Stering wheel list -->
-    <string name="stering_one">1. Krzywa kierownica</string>
-    <string name="stering_two">2. Kierwnica drży przy hamowaniu</string>
-    <string name="stering_three">3. Blokowanie kierwonicy przy skrecaniu</string>
-    <string name="stering_four">4. Kierunkowskaz miga zbyt szybko</string>
+    <string name="stering_one">Krzywa kierownica</string>
+    <string name="stering_two">Kierwnica drży przy hamowaniu</string>
+    <string name="stering_three">Blokowanie kierwonicy przy skrecaniu</string>
+    <string name="stering_four">Kierunkowskaz miga zbyt szybko</string>
 
     <!-- cokpit list -->
-    <string name="cokpit_one">1. Obrotomierz "faluje" na postoju</string>
-    <string name="cokpit_two">2. Rośnie temperatura silnika</string>
-    <string name="cokpit_three">3. Zapaliła się żółta kontrolka</string>
-    <string name="cokpit_four">4. Zapaliła się czerwona kontrolka</string>
+    <string name="cokpit_one">Obrotomierz "faluje" na postoju</string>
+    <string name="cokpit_two">Rośnie temperatura silnika</string>
+    <string name="cokpit_three">Zapaliła się żółta kontrolka</string>
+    <string name="cokpit_four">Zapaliła się czerwona kontrolka</string>
 
     <!-- engine list -->
-    <string name="engine_one">1. Silnik bardzo głośno pracuje</string>
-    <string name="engine_two">2. Stukanie w silniku</string>
-    <string name="engine_three">3. Olej na silniku</string>
-    <string name="engine_four">4. Dzwonienie na luzie</string>
-    <string name="engine_five">5. Plama pod samochodem</string>
+    <string name="engine_one">Silnik bardzo głośno pracuje</string>
+    <string name="engine_two">Stukanie w silniku</string>
+    <string name="engine_three">Olej na silniku</string>
+    <string name="engine_four">Dzwonienie na luzie</string>
+    <string name="engine_five">Plama pod samochodem</string>
 
     <!-- suspension list -->
-    <string name="suspension_one">1. Stuki w zawieszeniu z przodu</string>
-    <string name="suspension_two">2. Stuki w zawieszeniu z tyłu</string>
-    <string name="suspension_three">3. Szumienie kół</string>
+    <string name="suspension_one">Stuki w zawieszeniu z przodu</string>
+    <string name="suspension_two">Stuki w zawieszeniu z tyłu</string>
+    <string name="suspension_three">Szumienie kół</string>
 
     <!-- checkups main list -->
-    <string name="checkups_one">1. Przed wyjazdem w długa trasę</string>
-    <string name="checkups_two">2. Raz w miesiącu</string>
-    <string name="checkups_three">3. Raz w roku</string>
+    <string name="checkups_one">Przed wyjazdem w długa trasę</string>
+    <string name="checkups_two">Raz w miesiącu</string>
+    <string name="checkups_three">Raz w roku</string>
 
     <!-- chucks detaisl list -->
-    <string name="checkups_road_one">1. Sprawdź wszytkie płyny</string>
-    <string name="checkups_road_two">2. Sprawdź stan ogumnienia</string>
-    <string name="checkups_road_three">3. Udaj sie do stacji kontroli</string>
+    <string name="checkups_road_one">Sprawdź wszytkie płyny</string>
+    <string name="checkups_road_two">Sprawdź stan ogumnienia</string>
+    <string name="checkups_road_three">Udaj sie do stacji kontroli</string>
 
-    <string name="checkups_monthly_one">1. Sprawdź wycieki</string>
-    <string name="checkups_monthly_two">2. Sprawdź wszystkie płyny</string>
-    <string name="checkups_monthly_three">3. Sprawdź stan ogumnienia</string>
+    <string name="checkups_monthly_one">Sprawdź wycieki</string>
+    <string name="checkups_monthly_two">Sprawdź wszystkie płyny</string>
+    <string name="checkups_monthly_three">Sprawdź stan ogumnienia</string>
 
-    <string name="checkups_yearly_one">1. Wymień olej i filtry</string>
-    <string name="checkups_yearly_two">2. Udaj sie na stacje kontroli</string>
+    <string name="checkups_yearly_one">Wymień olej i filtry</string>
+    <string name="checkups_yearly_two">Udaj sie na stacje kontroli</string>
 
     <string name="info_string">Halcyon Software - Marek Kula 2015 dla Fundacji "Kapitan Światełko". Projekt Bezpieczny Przebieg został sfinansowany z grantu "Bezpiecznie Tu i Tam" Polskiej Spółki Gazownictwa.</string>
 

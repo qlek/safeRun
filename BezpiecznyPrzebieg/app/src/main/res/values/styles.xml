@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="fragmentThem">
+        <item name="android:background">@color/mainBackground</item>
+    </style>
+    <style name="fontColor">
+        <item name="android:textColor">@color/fontColor</item>
+        <item name="android:background">@color/brightBackground</item>
+    </style>
+
 </resources>
