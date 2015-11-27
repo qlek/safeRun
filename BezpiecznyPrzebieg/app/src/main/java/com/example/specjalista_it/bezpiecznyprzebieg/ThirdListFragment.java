@@ -74,7 +74,7 @@ public class ThirdListFragment extends Fragment {
             if (pramFromIntent.compareTo(getString(R.string.checkups_three))==0)
             {
                 data.add(new MainListElement(1,getString(R.string.checkups_yearly_one)));
-                data.add(new MainListElement(2,getString(R.string.checkups_yearly_one)));
+                data.add(new MainListElement(2,getString(R.string.checkups_yearly_two)));
             }
         }
         return  data;

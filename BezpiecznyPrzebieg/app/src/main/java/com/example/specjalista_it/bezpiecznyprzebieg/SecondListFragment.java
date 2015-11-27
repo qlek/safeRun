@@ -40,7 +40,6 @@ public class SecondListFragment extends Fragment {
         {
             Intent i = getActivity().getIntent();
             pramFromIntent = i.getExtras().getString(FirstListHolder.PARAM_NAME);
-
         }
         List<MainListElement> data = setElements();
         SecondListAdapter secondListAdapter = new SecondListAdapter(data, getContext());

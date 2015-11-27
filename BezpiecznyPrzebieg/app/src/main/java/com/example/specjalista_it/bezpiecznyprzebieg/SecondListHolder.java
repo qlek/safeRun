@@ -41,6 +41,11 @@ public class SecondListHolder extends RecyclerView.ViewHolder {
                         intent.putExtra(PARAM_NAME, myItemText.getText());
                         con.startActivity(intent);
                     }
+                    else{
+                        Intent intent = new Intent(con.getApplicationContext(), DetailInfoActivity.class);
+                        intent.putExtra(PARAM_NAME, myItemText.getText());
+                        con.startActivity(intent);
+                    }
                 }
                 //Toast.makeText(v.getContext(), myItemText.getText(), Toast.LENGTH_LONG).show();
             }

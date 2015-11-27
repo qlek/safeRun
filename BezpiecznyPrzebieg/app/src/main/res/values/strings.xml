@@ -19,10 +19,18 @@
     <string name="kzk_gop_danger_public">Niebezpieczna sytuacja w autobusie</string>
     <string name="kzk_gop_medical_problem">Zasłabnięcie pasażera</string>
 
+    <string name="kzk_gop_technical_issue_long">Jeśli masz wątpliwości co do stanu technicznego autobusu KZK GOP, którym się poruszasz, zadzwoń pod numer 32 7438446, podając numer linii i numer pojazdu (znajdziesz go na ściance za plecami kierowcy). Jeśli obawiasz się o bezpieczeństwo podróży, poproś kierowcę o zatrzymanie pojazdu i sprawdzenie jego stanu. Pamiętaj – kierowca nie widzi i nie słyszy wszystkiego, co dzieje się w jego autobusie!</string>
+    <string name="kzk_gop_danger_public_long">Jeśli czujesz się w autobusie zagrożony przez zachowanie innych osób, zadzwoń pod numer 997 lub wyślij SMS pod numer 695997997 – w ten sposób można zaalarmować Policję nie zwracając na siebie uwagi. Pamiętaj, by zawsze podać numer linii oraz numer boczny autobusu (znajdziesz go na ściance za plecami kierowcy).</string>
+    <string name="kzk_gop_medical_problem_long">Jeśli w Twoim autobusie zasłabł inny pasażer, natychmiast poinformuj o tym kierowcę, aby zatrzymał pojazd. Następnie wezwij pomoc dzwoniąc na numer 112 i podając numer linii autobusu oraz jego numer boczny (poda Ci go kierowca, znajdziesz go także na ściance za jego plecami). Nie bój się pomagać! Jeśli osoba nie oddycha, udziel pierwszej pomocy!</string>
+
     <!-- public autocar list -->
     <string name="autocar_technical_checkup">Sprawdzenie stanu technicznego</string>
     <string name="autocar_drug_test">Sprawdzenie trzeźwości kierowcy</string>
     <string name="autocar_license">Sprawdzenie uprawnień kierowcy</string>
+
+    <string name="autocar_technical_checkup_long">Jeśli chcesz, aby stan techniczny autobusu został sprawdzony przez wyjazdem Twoim lub Twojego dziecka na wycieczkę, skontaktuj się z organizatorem wycieczki. Ten ma obowiązek umówić wizytę autobusu w Sekcji Ruchu Drogowego. Ty również możesz tam zadzwonić pod numer 32 2779290 (Zabrze).</string>
+    <string name="autocar_drug_test_long">Jeśli masz jakiekolwiek wątpliwości co do stanu trzeźwości, jak najszybciej wezwij Policję dzwoniąc pod numer 997! Jeśli coś zwróciło Twoją uwagę, nie zastanawiaj się, od tego zależy Twoje życie!</string>
+    <string name="autocar_license_long">Przed wyjazdem na wycieczkę masz prawo skontrolować uprawnienia kierowcy, ważność jego badań zdrowotnych czy fakt posiadania przez niego kompletu dokumentów dla autokaru. Jeśli chcesz, by zrobiła to Policja, wezwij radiowóz dzwoniąc pod numer 997.</string>
 
     <!-- Main List -->
     <string name="stering_wheel">Kierownica</string>
@@ -76,5 +84,39 @@
     <string name="checkups_yearly_two">Udaj sie na stacje kontroli</string>
 
     <string name="info_string">Halcyon Software - Marek Kula 2015 dla Fundacji "Kapitan Światełko". Projekt Bezpieczny Przebieg został sfinansowany z grantu "Bezpiecznie Tu i Tam" Polskiej Spółki Gazownictwa.</string>
+
+    <string name="stering_one_long">Jest to zwykle kwestia zbieżności kół, czyli ich poprawnego ustawienia względem siebie nawzajem. Kiedy koła rozchodzą się z czasem od jazdy po nierównościach, aby samochód jechał do przodu musisz trzymać lekko skręconą kierownicę. Ignorowanie tej kwestii prowadzi przede wszystkim do szybszego zużywania się opon. </string>
+    <string name="stering_two_long">Najczęściej jest to wina tarcz hamulcowych i klocków. Może to wskazywać, że te elementy układu hamulcowego są już stare u zużyte – jak najszybciej należy je wymienić</string>
+    <string name="stering_three_long">Jeśli dzieje się to w niskich temperaturach, może to być kwestia układu wspomagania kierownicy. W innych wypadkach zwykle winny jest tzw. „krzyżak”. Udaj się jak najszybciej do serwisu, sprawny układ kierowniczy w ogromnym stopniu decyduje o Twoim bezpieczeństwie!</string>
+    <string name="stering_four_long">Oznacza to, że jedna z żarówek po tej stronie, która miga szybciej, uległa przepaleniu. Należy ją wymienić jak najszybciej, kierunkowskaz pozwala innym kierowcom zrozumieć Twoje zamiary na drodze i znacząco wpływa na Twoje bezpieczeństwo.</string>
+
+    <!-- cokpit list -->
+    <string name="cokpit_one_long">Kiedy samochód stoi na parkingu lub przed światłami i przy niskich obrotach wskazówka obrotomierza podnosi się i opada oznacza to, że problemem jest dostarczanie mieszanki paliwa i powietrza do silnika. Winna może być zabrudzona przepustnica lub silniczek krokowy. Jeśli falowanie jest większe i silnik zaczyna wyć po puszczeniu gazu, możesz zaplanować wizytę u mechanika w przyszłości</string>
+    <string name="cokpit_two_long">Nierzadko samochody potrafią „grzać się” stojąc w korku, kiedy dopływ powietrza do układu chłodniczego jest ograniczony. Jeśli jednak problem pojawia się częściej niż tylko w korku, przede wszystkim skontroluj ilość płynu chłodniczego – zrób to na postoju, kiedy silnik już ostygnie, kilkadziesiąt minut po wyłączeniu go. W razie konieczności możesz płynu chłodniczego dolać samodzielnie – można go kupić w każdym supermarkecie.</string>
+    <string name="cokpit_three_long">Znaczenie wszystkich kontrolek wyjaśnia instrukcja do Twojego samochodu. Bez trudu znajdziesz ją w internecie. Żółte kontrolki oznaczają konieczność sprawdzenia pewnego konkretnego elementu i instrukcja precyzyjnie powie Ci, jakiego. Sprawdź jej wskazania jak najszybciej.</string>
+    <string name="cokpit_four_long">Natychmiast zatrzymaj samochód w bezpiecznym miejscu i zgaś silnik. Czerwone kontroli oznaczają awarie uniemożliwiające dalszą jazdę. Znaczenie wszystkich kontrolek wyjaśnia instrukcja do Twojego samochodu. Bez trudu znajdziesz ją w internecie. Dzięki temu będziesz wiedzieć, jaki element uległ awarii. Nie należy poruszać się samochodem, póki nie zostanie usunięta.</string>
+
+    <!-- engine list -->
+    <string name="engine_one_long">Powodów może być bardzo wiele i należy się wybrać do mechanika, aby zdiagnozował przyczynę głośniejszej pracy silnika. Może to być przykładowo kwestia braku wymiany oleju od ponad roku lub jego niewielkiej ilości – sprawdź na postoju, po zaparkowaniu samochodu na płaskiej powierzchni, poziom oleju na bagnecie uprzednio go czyszcząc.</string>
+    <string name="engine_two_long">Stukanie pod maską, czy to tylko chwilę po zapaleniu silnika, czy przez cały czas pracy, świadczy o zużyciu lub uszkodzeniu jakiegoś elementu. Stukania w silniku nigdy nie należy ignorować i jak najszybciej trzeba udać się do mechanika – może to być kwestia części, których awaria doprowadzi do trwałego uszkodzenia silnika samochodu.</string>
+    <string name="engine_three_long">Jeśli po otwarciu maski na elementach silnika widzisz olej lub inny płyn, oznacza to uszkodzenie uszczelki lub przewodu, którym ten płyn jest transportowany w obrębie silnika. Po ostygnięciu silnika wyczyść wszystkie elementy papierowym ręcznikiem lub ścierką z niewielką ilością wody, a następnie udaj się na krótką przejażdżkę. Jeśli plamy znów się pojawią, udaj się do mechanika. Jeśli nie, kontroluj możliwe wycieki raz na kilka dni, aby ustalić, na którym elemencie się pojawiają. W każdym wypadku sprawdź również poziom wszystkich płynów (hamulcowy, chłodniczy, poziom oleju).</string>
+    <string name="engine_four_long">Oznacza nie problem z silnikiem, a ze sprzęgłem. Natychmiast udaj się do mechanika, gdyż nieprawidłowo działające sprzęgło może spowodować sytuację, w której nie będzie można zmienić biegu ani odłączyć silnika (luz) od kół, co grozi wypadkiem.</string>
+    <string name="engine_five_long">Najpierw sprawdź poziom wszystkich płynów w pojeździe – oleju, płynu hamulcowego, chłodniczego oraz płynu do spryskiwaczy. Jeśli poziom któregoś z nich jest niski, udaj się natychmiast do warsztatu. Jeśli nie, obserwuj w trakcie jazdy inne objawy działania silnika. Wyciek z któregokolwiek układu nie powinien być ignorowany. </string>
+
+    <!-- suspension list -->
+    <string name="suspension_one_long">Oznaczają one zawsze zużycie elementów odpowiadających za zwieszenie i układ kierowniczy. W przypadku stukania w przednim zawieszeniu problem jest o tyle poważny, że pęknięcie lub awaria któregoś z elementów może doprowadzić do sytuacji, w której pojazd nie będzie dał się prowadzić. Pamiętaj, że sprawne elementy układu kierowniczego decydują o Twoim życiu.</string>
+    <string name="suspension_two_long">Tylne zawieszenie decyduje o komforcie jazdy i o ile początkowo stukanie świadczyć może po prostu o zużyciu pewnych elementów, o tyle jazda z uszkodzonym tylnym zawieszeniem doprowadzi w końcu do problemów z przyczepnością samochodu i jego prowadzeniem w zakrętach.</string>
+    <string name="suspension_three_long">Głośne szumienie kół może być związane ze zużyciem łożysk, na których koła naszego auta się obracają. Zwykle wytrzymują one około 150tys kilometrów lub nawet dłużej, ale  z czasem mogą się zużywać, w zależności od wielu czynników. Uszkodzenie łożysk może doprowadzić nawet do zablokowania się kół, należy więc zgłosić tę kwestię jak najszybciej mechanikowi.</string>
+
+    <string name="checkups_road_one_long">Otwórz maskę i sprawdź ilość płynów w układzie chłodzenia, hamulcowym oraz wspomagania kierownicy. Każdy z nich ma osobny zbiornik, gdzie widoczny jest poziom płynu. Powinien się zawierać między MIN a MAX. Sprawdź poziom oleju najpierw czyszcząc bagnet, a następnie wsadzając go do końca i dopiero wówczas uzyskasz wskazanie. Pamiętaj, by wszystkie płyny sprawdzać na postoju, kilkadziesiąt minut po zgaszeniu silnika, na równym terenie.</string>
+    <string name="checkups_road_two_long">Zobacz, jaka jest wysokość bieżnika – powinna wynosić około pół centymetra. Długi ciąg cyfr i liter na boku opony zawiera również datę jej produkcji: ostatnie dwie cyfry to rok. Nie należy jeździć na oponach starszych niż 10 lat.</string>
+    <string name="checkups_road_three_long">Na każdej stacji kontroli pojazdów możesz wykonać podstawowe badania techniczne – jeśli na wstępie powiesz, że nie wymagana jest pieczątka, ponieważ masz aktualne badanie, zwykle odbywa się to w bardzo korzystnej cenie a Ty masz pewność, że w dłuższą trasę pojedziesz sprawnym autem.</string>
+
+    <string name="checkups_monthly_one_long">Zajrzyj pod maskę i sprawdź, czy nigdzie nie pojawiły się plamy lub bród przylegający do zaschniętego płynu.</string>
+    <string name="checkups_monthly_two_long">Otwórz maskę i sprawdź ilość płynów w układzie chłodzenia, hamulcowym oraz wspomagania kierownicy. Każdy z nich ma osobny zbiornik, gdzie widoczny jest poziom płynu. Powinien się zawierać między MIN a MAX. Sprawdź poziom oleju najpierw czyszcząc bagnet, a następnie wsadzając go do końca i dopiero wówczas uzyskasz wskazanie. Pamiętaj, by wszystkie płyny sprawdzać na postoju, kilkadziesiąt minut po zgaszeniu silnika, na równym terenie.</string>
+    <string name="checkups_monthly_three_long">Zobacz, jaka jest wysokość bieżnika – powinna wynosić około pół centymetra. Długi ciąg cyfr i liter na boku opony zawiera również datę jej produkcji: ostatnie dwie cyfry to rok. Nie należy jeździć na oponach starszych niż 10 lat.a</string>
+
+    <string name="checkups_yearly_one_long">Udaj się do mechanika. Należy wymienić olej w silniku oraz filtr paliwa, filtr olejowy i filtr kabinowy.</string>
+    <string name="checkups_yearly_two_long">Uzyskaj pieczątkę z ważnym badaniem technicznym dla swojego samochodu.</string>
 
 </resources>

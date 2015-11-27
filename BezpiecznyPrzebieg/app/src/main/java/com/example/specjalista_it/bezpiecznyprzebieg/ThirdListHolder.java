@@ -34,7 +34,7 @@ public class ThirdListHolder extends RecyclerView.ViewHolder {
             public void onClick(View v) {
                 if (v.getContext() != null) {
                     //TODO: change activites that it will start - single text and third list activieties
-                    Intent intent = new Intent(con.getApplicationContext(), SecondListActivity.class);
+                    Intent intent = new Intent(con.getApplicationContext(), DetailInfoActivity.class);
                     intent.putExtra(PARAM_NAME, myItemText.getText());
 
                     con.startActivity(intent);

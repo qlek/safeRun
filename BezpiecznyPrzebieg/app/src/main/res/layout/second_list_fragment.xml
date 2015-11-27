@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/fragmentThem">
+    style="@style/fragmentThem"
+    android:textAlignment="center">
 
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
         android:text="@string/second_list_label"
@@ -10,7 +11,8 @@
         android:minHeight="30dp"
         android:textSize="30dp"
         android:layout_marginBottom="20dp"
-        style="@style/fontColor"/>
+        style="@style/fontColor"
+        android:textAlignment="center" />
 
 
     <android.support.v7.widget.RecyclerView

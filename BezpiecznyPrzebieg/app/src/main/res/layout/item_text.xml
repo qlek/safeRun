@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    style="@style/fontColor">
+    style="@style/fontColor"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingBottom="3dp">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/fontColor">
 
     <TextView
         android:id="@+id/text_item"
@@ -11,5 +18,9 @@
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:textAlignment="center"
-        style="@style/fontColor" />
+        style="@style/fontColor"
+        android:layout_margin="3dp" />
+
+</FrameLayout>
+
 </LinearLayout>
