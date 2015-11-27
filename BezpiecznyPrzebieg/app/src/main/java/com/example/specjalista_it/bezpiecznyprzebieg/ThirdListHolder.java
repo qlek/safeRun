@@ -12,14 +12,14 @@ import butterknife.ButterKnife;
 /**
  * Created by Specjalista-IT on 2015-11-25.
  */
-public class SecondListHolder extends RecyclerView.ViewHolder {
+public class ThirdListHolder extends RecyclerView.ViewHolder {
 
-    public static String PARAM_NAME = "SECOND_LIST_PARAM";
+    public static String PARAM_NAME = "THIRD_LIST_PARAM";
     @Bind(R.id.text_item)
     protected TextView myItemText;
     protected Context con;
 
-    public SecondListHolder(View itemView, Context context) {
+    public ThirdListHolder(View itemView, Context context) {
         super(itemView);
         con = context;
         ButterKnife.bind(this, itemView);
@@ -34,17 +34,13 @@ public class SecondListHolder extends RecyclerView.ViewHolder {
             public void onClick(View v) {
                 if (v.getContext() != null) {
                     //TODO: change activites that it will start - single text and third list activieties
-                    if (myItemText.getText().toString().compareTo(con.getString(R.string.checkups_one) )==0 ||
-                            myItemText.getText().toString().compareTo(con.getString(R.string.checkups_two) )==0 ||
-                            myItemText.getText().toString().compareTo(con.getString(R.string.checkups_three) )==0 ) {
-                        Intent intent = new Intent(con.getApplicationContext(), ThirdListActivity.class);
-                        intent.putExtra(PARAM_NAME, myItemText.getText());
-                        con.startActivity(intent);
-                    }
+                    Intent intent = new Intent(con.getApplicationContext(), SecondListActivity.class);
+                    intent.putExtra(PARAM_NAME, myItemText.getText());
+
+                    con.startActivity(intent);
                 }
                 //Toast.makeText(v.getContext(), myItemText.getText(), Toast.LENGTH_LONG).show();
             }
         });
     }
-
 }

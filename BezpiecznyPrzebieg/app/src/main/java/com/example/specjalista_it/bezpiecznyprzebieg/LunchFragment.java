@@ -15,6 +15,8 @@ import butterknife.ButterKnife;
 
 public class LunchFragment extends Fragment{
 
+    public static String CLICK_SOURCE = "CLICK";
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -25,16 +27,27 @@ public class LunchFragment extends Fragment{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), FirstListActivity.class);
+                intent.putExtra(CLICK_SOURCE, getString(R.string.car));
                 startActivity(intent);
             }
         });
 
         Button transportButton = (Button) view.findViewById(R.id.publicTransport);
-
         transportButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), FirstListActivity.class);
+                intent.putExtra(CLICK_SOURCE, getString(R.string.public_transport));
+                startActivity(intent);
+            }
+        });
+
+        Button appInfoButton =  (Button) view.findViewById(R.id.info);
+        appInfoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), InfoActivity.class);
+                intent.putExtra(CLICK_SOURCE, getString(R.string.car));
                 startActivity(intent);
             }
         });

@@ -2,12 +2,27 @@
     <!-- -->
     <string name="app_name">Bezpieczny Przebieg</string>
     <string name="welcome">Witaj, jakiego pojazdu dotyczy problem?</string>
-    <string name="car">Samochód prywatny</string>
-    <string name="public_transport">Transport publiczny</string>
+    <string name="car">Mój samochód</string>
+    <string name="public_transport">Jadę autobusem</string>
     <!-- -->
     <string name="button_label_sponsor">Informacja</string>
     <!--  -->
     <string name="diagnostic_label">Wybierz źródło problemu:</string>
+
+    <!--public transport main list-->
+
+    <string name="kzk_gop">1. Jadę autobusem KZK GOP</string>
+    <string name="autocar">2. Jadę autokarem wycieczkowym</string>
+
+    <!-- public transport list -->
+    <string name="kzk_gop_technical_issue">1. Stan techniczny pojazdu</string>
+    <string name="kzk_gop_danger_public">2. Niebezpieczna sytuacja w autobusie</string>
+    <string name="kzk_gop_medical_problem">3. Zasłabnięcie pasażera</string>
+
+    <!-- public autocar list -->
+    <string name="autocar_technical_checkup">1. Sprawdzenie stanu technicznego</string>
+    <string name="autocar_drug_test">2. Sprawdzenie trzeźwości kierowcy</string>
+    <string name="autocar_license">3. Sprawdzenie uprawnień kierowcy</string>
 
     <!-- Main List -->
     <string name="stering_wheel">1. Kierownica</string>
@@ -36,7 +51,7 @@
     <string name="engine_two">2. Stukanie w silniku</string>
     <string name="engine_three">3. Olej na silniku</string>
     <string name="engine_four">4. Dzwonienie na luzie</string>
-    <string name="engine_five">5. Palma pod samochodem</string>
+    <string name="engine_five">5. Plama pod samochodem</string>
 
     <!-- suspension list -->
     <string name="suspension_one">1. Stuki w zawieszeniu z przodu</string>
@@ -47,5 +62,19 @@
     <string name="checkups_one">1. Przed wyjazdem w długa trasę</string>
     <string name="checkups_two">2. Raz w miesiącu</string>
     <string name="checkups_three">3. Raz w roku</string>
+
+    <!-- chucks detaisl list -->
+    <string name="checkups_road_one">1. Sprawdź wszytkie płyny</string>
+    <string name="checkups_road_two">2. Sprawdź stan ogumnienia</string>
+    <string name="checkups_road_three">3. Udaj sie do stacji kontroli</string>
+
+    <string name="checkups_monthly_one">1. Sprawdź wycieki</string>
+    <string name="checkups_monthly_two">2. Sprawdź wszystkie płyny</string>
+    <string name="checkups_monthly_three">3. Sprawdź stan ogumnienia</string>
+
+    <string name="checkups_yearly_one">1. Wymień olej i filtry</string>
+    <string name="checkups_yearly_two">2. Udaj sie na stacje kontroli</string>
+
+    <string name="info_string">Halcyon Software - Marek Kula 2015 dla Fundacji "Kapitan Światełko". Projekt Bezpieczny Przebieg został sfinansowany z grantu "Bezpiecznie Tu i Tam" Polskiej Spółki Gazownictwa.</string>
 
 </resources>

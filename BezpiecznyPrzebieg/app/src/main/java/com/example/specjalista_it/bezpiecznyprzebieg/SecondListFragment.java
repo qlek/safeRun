@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +36,6 @@ public class SecondListFragment extends Fragment {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         secondRecycleView.setLayoutManager(layoutManager);
 
-        //here put data for new recycler view and logic to put strings in list
         if (getActivity().getIntent()!= null)
         {
             Intent i = getActivity().getIntent();
@@ -45,6 +45,13 @@ public class SecondListFragment extends Fragment {
         List<MainListElement> data = setElements();
         SecondListAdapter secondListAdapter = new SecondListAdapter(data, getContext());
         secondRecycleView.setAdapter(secondListAdapter);
+
+        if (pramFromIntent.compareTo(getString(R.string.periodic_checkups))==0)
+        {
+            TextView textView = (TextView) view.findViewById(R.id.second_label);
+            textView.setText(pramFromIntent);
+        }
+
         return view;
     }
 
@@ -94,6 +101,19 @@ public class SecondListFragment extends Fragment {
                 data.add(new MainListElement(2,getString(R.string.checkups_two)));
                 data.add(new MainListElement(3,getString(R.string.checkups_three)));
             }
+            if (pramFromIntent.compareTo(getString(R.string.kzk_gop))==0)
+            {
+                data.add(new MainListElement(1,getString(R.string.kzk_gop_technical_issue)));
+                data.add(new MainListElement(2,getString(R.string.kzk_gop_danger_public)));
+                data.add(new MainListElement(3,getString(R.string.kzk_gop_medical_problem)));
+            }
+            if (pramFromIntent.compareTo(getString(R.string.autocar))==0)
+            {
+                data.add(new MainListElement(1,getString(R.string.autocar_technical_checkup)));
+                data.add(new MainListElement(2,getString(R.string.autocar_drug_test)));
+                data.add(new MainListElement(3,getString(R.string.autocar_license)));
+            }
+
         }
         return  data;
     }
