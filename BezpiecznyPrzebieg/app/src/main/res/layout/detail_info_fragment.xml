@@ -10,7 +10,8 @@
         android:id="@+id/detailsLabel"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        style="style/fontColor"/>
+        style="style/fontColor"
+        android:textSize="28dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -19,6 +20,8 @@
         android:id="@+id/detailsString"
         android:layout_below="@+id/detailsLabel"
         android:layout_alignParentStart="true"
-        style="style/fontColor"/>
+        style="style/fontColor"
+        android:textSize="20dp"
+        android:textAlignment="center" />
 
 </RelativeLayout>

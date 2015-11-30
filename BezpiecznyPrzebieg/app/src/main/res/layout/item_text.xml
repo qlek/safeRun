@@ -19,7 +19,8 @@
         android:textSize="30dp"
         android:textAlignment="center"
         style="@style/fontColor"
-        android:layout_margin="3dp" />
+        android:layout_margin="3dp"
+        android:text="aaa" />
 
 </FrameLayout>
 
