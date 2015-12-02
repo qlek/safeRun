@@ -13,36 +13,60 @@
         android:textSize="30dp"
         android:textAlignment="center" />
 
-    <Button
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/car"
-        android:id="@+id/car"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
+        android:background="@color/fontColor"
+        android:id="@+id/car_frame"
         android:layout_marginTop="48dp"
-        style="@style/fontColor"
-        android:textSize="22dp" />
+        android:layout_below="@+id/textView">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car"
+            android:id="@+id/car"
+            android:layout_margin="3dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="48dp"
+            style="@style/itemStyle"
+            android:textSize="22dp" />
+    </FrameLayout>
 
-    <Button
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/public_transport"
-        android:id="@+id/publicTransport"
-        android:layout_below="@+id/car"
-        android:layout_alignParentStart="true"
-        style="@style/fontColor"
+        android:background="@color/fontColor"
+        android:id="@+id/publicTransportFrame"
         android:layout_marginTop="3dp"
-        android:textSize="22dp" />
+        android:layout_below="@+id/car_frame">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/public_transport"
+            android:id="@+id/publicTransport"
+            android:layout_below="@+id/car"
+            android:layout_margin="3dp"
+            android:layout_alignParentStart="true"
+            style="@style/itemStyle"
+            android:layout_marginTop="3dp"
+            android:textSize="22dp" />
+    </FrameLayout>
 
-    <Button
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_label_sponsor"
-        android:id="@+id/info"
+        android:background="@color/fontColor"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        style="@style/fontColor"
-        android:textSize="22dp" />
-
+        android:id="@+id/infoFrame">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label_sponsor"
+            android:id="@+id/info"
+            android:layout_margin="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            style="@style/itemStyle"
+            android:textSize="22dp" />
+    </FrameLayout>
 </RelativeLayout>

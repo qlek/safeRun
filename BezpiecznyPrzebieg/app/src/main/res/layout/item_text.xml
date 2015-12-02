@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:textAlignment="center"
-        style="@style/fontColor"
+        style="@style/itemStyle"
         android:layout_margin="3dp"
         android:text="aaa" />
 

@@ -20,6 +20,10 @@
     </style>
     <style name="fontColor">
         <item name="android:textColor">@color/fontColor</item>
+    </style>
+
+    <style name="itemStyle">
+        <item name="android:textColor">@color/fontColor</item>
         <item name="android:background">@color/brightBackground</item>
     </style>
 
