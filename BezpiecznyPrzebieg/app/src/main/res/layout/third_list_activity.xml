@@ -5,12 +5,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.specjalista_it.bezpiecznyprzebieg.ThirdListActivity"
-    android:background="@mipmap/backgroud1">
+    tools:context="com.halcyon.specjalista_it.bezpiecznyprzebieg.ThirdListActivity"
+    android:background="@drawable/backgroud1">
 
     <fragment
         android:id="@+id/details_fragment"
-        android:name="com.example.specjalista_it.bezpiecznyprzebieg.ThirdListFragment"
+        android:name="com.halcyon.specjalista_it.bezpiecznyprzebieg.ThirdListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/third_list_fragment" />
